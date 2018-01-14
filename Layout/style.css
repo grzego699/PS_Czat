@@ -13,12 +13,18 @@ body {
 	margin-right:auto;
     padding:25px;
     background:#b3b3b3;	
-	opacity: 0.8;
-	filter: alpha(opacity=80);
+	opacity: 0.9;
+	filter: alpha(opacity=90);
 	position: relative;
     }
  
 h6{
+	font:8px arial;    
+    text-align:center;
+	color: #e6e6e6;
+}
+	
+h7{
 	font:8px arial;    
     text-align:center;
 	color: #e6e6e6;
@@ -49,13 +55,34 @@ h6{
     overflow:auto;	
 	}
 	
+#firstUser{	
+	width:100px;
+	margin-left:10px	
+		
+}
+
+#secondUser{
+	width:100px;
+	right:100px;	
+	position:absolute;	
+}
+	
 #activities{	
 
 	width:50%;
 	margin-left:auto;
 	margin-right:auto;
+	height:10%;	
+
 }
 
+#frame{	
+
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:20%;	
+}
   
 #usermsg {
     width:50%;
